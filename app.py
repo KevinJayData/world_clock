@@ -1,10 +1,10 @@
-from tkinter import Label, Tk
+import tkinter
 from datetime import datetime
 import time
 import pytz
 
 
-app_window = Tk()
+app_window = tkinter.Tk()
 app_window.title("My Digital Time")
 app_window.geometry("1000x1000")
 app_window.resizable(None, None)
@@ -17,19 +17,19 @@ border_width = 25
 time_live = time.strftime("%m %B %Y, %H:%M:%S")
 
 
-label0 = Label(app_window,  font=text_font, bg=background, fg=foreground, bd=border_width)
+label0 = tkinter.Label(app_window,  font=text_font, bg=background, fg=foreground, bd=border_width)
 label0.grid(row=0, column=0)
 
-label1 = Label(app_window,  font=text_font, bg=background, fg=foreground, bd=border_width)
+label1 = tkinter.Label(app_window,  font=text_font, bg=background, fg=foreground, bd=border_width)
 label1.grid(row=1, column=0)
 
-label2 = Label(app_window, font=text_font, bg=background, fg=foreground, bd=border_width)
+label2 = tkinter.Label(app_window, font=text_font, bg=background, fg=foreground, bd=border_width)
 label2.grid(row=2, column=0)
 
-label3 = Label(app_window,  font=text_font, bg=background, fg=foreground, bd=border_width)
+label3 = tkinter.Label(app_window,  font=text_font, bg=background, fg=foreground, bd=border_width)
 label3.grid(row=3, column=0)
 
-label4 = Label(app_window,  font=text_font, bg=background, fg=foreground, bd=border_width)
+label4 = tkinter.Label(app_window,  font=text_font, bg=background, fg=foreground, bd=border_width)
 label4.grid(row=4, column=0)
 
 
