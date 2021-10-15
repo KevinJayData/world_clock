@@ -3,6 +3,7 @@ from datetime import datetime
 import time
 import pytz
 
+
 app_window = Tk()
 app_window.title("My Digital Time")
 app_window.geometry("1000x1000")
