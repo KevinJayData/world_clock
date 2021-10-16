@@ -11,7 +11,7 @@ app_window.resizable(None, None)
 
 text = 'Local Time'
 text_font= ("Boulder", 48, 'bold')
-background = "#f2e750"
+background = "#9deb91"
 foreground= "#363529"
 border_width = 25
 time_live = time.strftime("%m %B %Y, %H:%M:%S")
