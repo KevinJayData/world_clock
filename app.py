@@ -40,11 +40,11 @@ label5.grid(row=2, column=1)
 
 def digital_clock():
     label0.config(text='Sydney Australia \n' + datetime.now(pytz.timezone('Australia/Sydney')).strftime("%b %d %Y %H:%M:%S"))
-    label1.config(text='New York \n' + datetime.now(pytz.timezone('US/Eastern')).strftime("%b %d %Y %H:%M:%S")) # 'US/Eastern'
-    label2.config(text='Chicago \n' + datetime.now(pytz.timezone('US/Central')).strftime("%b %d %Y %H:%M:%S")) # 'US/Central'
-    label3.config(text='Denver \n' + datetime.now(pytz.timezone('US/Mountain')).strftime("%b %d %Y %H:%M:%S")) # 'US/Mountain'
-    label4.config(text='Reno/Seattle \n' + datetime.now(pytz.timezone('US/Pacific')).strftime("%b %d %Y %H:%M:%S"))
-    label5.config(text='Tel Aviv \n' + datetime.now(pytz.timezone('Israel')).strftime("%b %d %Y %H:%M:%S"))
+    label1.config(text='Tel Aviv \n' + datetime.now(pytz.timezone('Israel')).strftime("%b %d %Y %H:%M:%S"))
+    label2.config(text='New York \n' + datetime.now(pytz.timezone('US/Eastern')).strftime("%b %d %Y %H:%M:%S")) # 'US/Eastern'
+    label3.config(text='Chicago \n' + datetime.now(pytz.timezone('US/Central')).strftime("%b %d %Y %H:%M:%S")) # 'US/Central'
+    label4.config(text='Denver \n' + datetime.now(pytz.timezone('US/Mountain')).strftime("%b %d %Y %H:%M:%S")) # 'US/Mountain'
+    label5.config(text='Reno/Seattle \n' + datetime.now(pytz.timezone('US/Pacific')).strftime("%b %d %Y %H:%M:%S"))
     label0.after(200, digital_clock)
 
 
